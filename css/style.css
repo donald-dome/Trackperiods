@@ -1,0 +1,131 @@
+body{
+	background-color: ghostwhite;
+	padding: 0;
+	margin: 0;
+}
+.header{
+	height: 120px;
+	width: 100%;
+	background-color: #1976D2;
+	box-shadow: 0.1em 0.1em 0.1em #455A64;
+}
+.topheader{
+	width: 100%;
+	padding-top: 10px;
+	color: #FFFFFF;
+}
+.leftmenu, .refresh{
+	width: 12%;
+	float: left;
+	text-align: center;
+}
+.headertitle{
+	width: 76%;
+	float: left;
+}
+.myicon{
+	display: inline-block;
+	width: 35px;
+	height: 30px;
+	padding-top: 5px;
+	cursor: pointer;
+	outline: none;
+}
+.apptitle{
+	padding: 4px 15px 0px;
+}
+.datestring{
+	clear: both;
+	width: 100%;
+	text-align:center;
+	padding-top: 4px; 
+	color: #FFFFFF;
+}
+.navigation{
+	width: 100%;
+}
+.navigation ul{
+	list-style: none;
+	text-align: center;
+	margin-top: 10px;
+	padding: 0;
+}
+.navigation ul li{
+	display: inline-block;
+	width: 19%;
+	cursor: pointer;
+	color: #FFFFFF;
+	
+}
+.activeday{
+	border-bottom: 0.1em solid white;
+}
+.sidenav{
+	background-color: ghostwhite;
+	height: 100%;
+	width: 270px;
+	position: absolute;
+	top: 0;
+	right: 380px;
+	z-index: 10;
+}
+.blur{
+	background-color:grey;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.3;
+	display: none;
+	z-index: 3;
+}
+.toast{
+	width: 100px;
+	height: 18px;
+	position: fixed;
+	bottom: 40px;
+	left: 135px;
+	background-color: black;
+	color: white;
+	opacity: 0.5;
+	border-radius: 3px;
+	font-size: 12px;
+	text-align: center;
+	padding-top: 2px;
+	display: none;	
+}
+.fab{
+	background-color: #E91E63;
+	position: fixed;
+	bottom: 40px;
+	right: 20px;
+	height: 45px;
+	width: 45px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	cursor: pointer; 
+	box-shadow: 0.0em 0.1em 0.2em  grey;
+}
+#white{
+	color: white;
+}
+.fab_add{
+	background-color: ghostwhite;
+	position: fixed;
+	bottom: 60px;
+	right: 25px;
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	cursor: pointer; 
+	box-shadow: 0.0em 0.1em 0.2em  grey;	
+}
+#black{
+	color: #BBDEFB;
+}
