@@ -38,7 +38,7 @@ body{
 	clear: both;
 	width: 100%;
 	text-align:center;
-	padding-top: 4px; 
+	/*padding-top: 4px; */
 	color: #FFFFFF;
 }
 .navigation{
@@ -47,7 +47,7 @@ body{
 .navigation ul{
 	list-style: none;
 	text-align: center;
-	margin-top: 10px;
+	/*margin-top: 10px;*/
 	padding: 0;
 }
 .navigation ul li{
